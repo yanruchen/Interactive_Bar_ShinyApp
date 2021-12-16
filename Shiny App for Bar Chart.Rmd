@@ -1,0 +1,61 @@
+---
+title: "Shiny App for Bar Chart"
+author: "Yanru"
+date: "12/2/2021"
+output: html_document
+---
+
+
+# Motivation: 
+
+    Bar graph is one of the most fundamental topics in statistics. It is often used to display the frequency or relative frequency of a dataset. I have created a interactive shinyApp on this topic. This App could be used to teach Bar Chart to new learner, and the background knowledge (frequency, relative frequency) is included in the third tab.
+
+ShinyAPP link is [here](https://1ci5ec-yanru-chen.shinyapps.io/Project_Shiny/)
+
+```{r, echo=FALSE, out.extra="data-external=1", out.width = "100%"}
+# Reference https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html 
+# Reference2 https://bookdown.org/yihui/rmarkdown-cookbook/include-url.html
+
+knitr::include_app("https://1ci5ec-yanru-chen.shinyapps.io/Project_Shiny/",
+  height = "600px")
+```
+
+
+# Lesson Plan:
+
+### 1. Introduce frequency and relative frequency. (Skip this step if students already familiar with the background.)
+
+    Use the third tab, discuss what are frequency and relative frequency, and why they are important. 
+   
+    Lecture on how to calculate the relative frequency. Two sampple calculations are included on the third tab (use example1 data). Let students do the calculations for "Notebook" and "Tablet". If more practice is needed, use example 2 to calculate relative frequencies.
+  
+   
+### 2. Use the first tab to demonstrate how to make Bar Graphs. 
+    
+    Focus on how the height of the bar relates to the frequency in the table. 
+    
+    Let students click on the "choose relative frequency" and discuss the questions below:
+   
+    a. What has changed in the graph? What has not? Why? 
+    
+    b. Add the relative frequencies for each bar, what do you get? Why?
+   
+### 3. Let students choose the example2 and discuss what changed in the graph and what caused the change. 
+
+    NOTE: When students choose example2, the color of the bar will change. This is to help distinguish the different datasets.
+    
+    Teacher can ask a similar question as 2b: Add the relative frequencies for each bar, what do you get? (discuss percentage if time allowed)
+
+### 4. (Optional) Use the second tab to introduce Pareto graph. 
+     
+    Discuss what is a Pareto Graph, and when it is helpful to use a Pareto Graph. Let students click on the link and read "More about Pareto Graph". 
+   
+    NOTE: Open link in a new tab if the webpage doesn't open.
+   
+    This is a good topic to connect statistics with real life application (in this case, economics). 
+   
+# Homework Suggestions:
+
+    1. Use dataset in example2 to calculate relative frequency. (If not covered in class)
+    
+    2. Make a dataset that has different input, calculate relative frequency, and draw the Bar Graph using relative frequency.
